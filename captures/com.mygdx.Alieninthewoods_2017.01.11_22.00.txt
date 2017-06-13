@@ -1,0 +1,64 @@
+TASK com.mygdx.Alieninthewoods id=3147
+  ACTIVITY com.mygdx.Alieninthewoods/.AndroidLauncher d2d3967 pid=8047
+    Local Activity 260f8c0 State:
+      mResumed=true mStopped=false mFinished=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 230mcc2mnc cs_CZ ldltr sw360dp w598dp h336dp 480dpi nrml land finger -keyb/v/h -nav/h suim:1 s.610}
+      mLoadersStarted=true
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@57b9d2e
+        mContainer=android.app.Activity$HostCallbacks@57b9d2e
+        mCurState=5 mStateSaved=false mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=true
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=true (barrier=537)
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=true
+      mLastFrameTime=278697301 (22 ms ago)
+    View Hierarchy:
+      com.android.internal.policy.PhoneWindow$DecorView{f1a20cf V.E...... R......D 0,0-1794,1080}
+        android.widget.LinearLayout{3393a5c V.E...... .......D 0,0-1794,1080}
+          android.view.ViewStub{e4e1165 G.E...... ......I. 0,0-0,0 #102039f android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{9a85e3a V.E...... .......D 0,0-1794,1080 #1020002 android:id/content}
+            android.widget.RelativeLayout{441faeb V.E...... .......D 0,0-1794,1080}
+              com.badlogic.gdx.backends.android.surfaceview.GLSurfaceView20{74da048 VFE...... .F...... 0,0-1794,1080}
+              com.google.android.gms.ads.AdView{2935ee1 V.E...... .......D 0,984-1794,1080}
+                com.google.android.gms.ads.internal.bi{2ae2406 V.E...... .......D 0,0-1794,96}
+                  com.google.android.gms.ads.internal.webview.l{5c35ac7 V.E...... .......D 0,0-1794,96}
+                    com.google.android.gms.ads.internal.webview.m{6c078f4 VFEDHVC.. ......ID 0,0-1794,96}
+                  com.google.android.gms.ads.internal.webview.l{586081d G.E...... ......I. 0,0-0,0}
+                    com.google.android.gms.ads.internal.webview.m{3f87a92 VFEDHVC.. ......I. 0,0-0,0}
+    Looper (main, tid 1) {5cda355}
+      Message 0: { when=-17ms callback=com.mygdx.Alieninthewoods.AndroidLauncher$1 target=android.os.Handler }
+      Message 1: { when=-14ms barrier=537 }
+      Message 2: { when=-13ms callback=com.google.android.gms.ads.internal.webview.u target=com.google.android.gms.ads.internal.util.d }
+      Message 3: { when=-10ms callback=android.view.Choreographer$FrameDisplayEventReceiver target=android.view.Choreographer$FrameHandler }
+      Message 4: { when=-5ms callback=com.mygdx.Alieninthewoods.AndroidLauncher$1 target=android.os.Handler }
+      Message 5: { when=+441ms what=2 target=org.chromium.base.SystemMessageHandler }
+      Message 6: { when=+633ms what=0 obj=com.google.android.gms.ads.service.START target=android.os.Handler }
+      Message 7: { when=+665ms what=0 obj=com.google.android.gms.clearcut.service.START target=android.os.Handler }
+      Message 8: { when=+674ms callback=android.view.View$ScrollabilityCache target=android.view.ViewRootImpl$ViewRootHandler }
+      Message 9: { when=+1s251ms what=0 obj=com.google.android.gms.ads.service.START target=android.os.Handler }
+      Message 10: { when=+1s262ms callback=android.view.View$ScrollabilityCache target=android.view.ViewRootImpl$ViewRootHandler }
+      Message 11: { when=+1s979ms what=0 obj=com.google.android.gms.clearcut.service.START target=android.os.Handler }
+      Message 12: { when=+2s564ms what=0 obj=com.google.android.gms.ads.service.START target=android.os.Handler }
+      Message 13: { when=+3s340ms what=0 obj=com.google.android.gms.clearcut.service.START target=android.os.Handler }
+      Message 14: { when=+3s986ms what=0 obj=com.google.android.gms.ads.service.START target=android.os.Handler }
+      Message 15: { when=+4s32ms what=0 obj=com.google.android.gms.clearcut.service.START target=android.os.Handler }
+      Message 16: { when=+4s606ms what=0 obj=com.google.android.gms.ads.service.START target=android.os.Handler }
+      Message 17: { when=+29s969ms callback=com.google.android.gms.ads.internal.cache.b target=com.google.android.gms.ads.internal.util.d }
+      Message 18: { when=+48s624ms callback=com.google.android.gms.ads.internal.js.u target=com.google.android.gms.ads.internal.util.d }
+      Message 19: { when=+49s383ms callback=com.google.android.gms.ads.internal.renderer.b target=com.google.android.gms.ads.internal.util.d }
+      Message 20: { when=+51s603ms callback=com.google.android.gms.ads.internal.renderer.b target=com.google.android.gms.ads.internal.util.d }
+      Message 21: { when=+53s546ms callback=com.google.android.gms.ads.internal.renderer.b target=com.google.android.gms.ads.internal.util.d }
+      Message 22: { when=+55s698ms callback=com.google.android.gms.ads.internal.renderer.b target=com.google.android.gms.ads.internal.util.d }
+      Message 23: { when=+59s75ms callback=com.google.android.gms.ads.internal.renderer.b target=com.google.android.gms.ads.internal.util.d }
+      Message 24: { when=+59s663ms callback=com.google.android.gms.ads.internal.renderer.b target=com.google.android.gms.ads.internal.util.d }
+      (Total messages: 25, polling=false, quitting=false)

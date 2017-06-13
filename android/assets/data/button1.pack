@@ -1,0 +1,173 @@
+
+button1.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+button 2
+  rotate: false
+  xy: 1, 313
+  size: 282, 102
+  orig: 282, 102
+  offset: 0, 0
+  index: -1
+buuton 1
+  rotate: false
+  xy: 1, 209
+  size: 282, 102
+  orig: 282, 102
+  offset: 0, 0
+  index: -1
+BACK 1
+  rotate: false
+  xy: 285, 313
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+BACK 2
+  rotate: false
+  xy: 1, 105
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+button_jump
+  rotate: false
+  xy: 285, 209
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+button_run
+  rotate: false
+  xy: 389, 313
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+LOCK 1
+  rotate: false
+  xy: 1, 1
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+LOCK 2
+  rotate: false
+  xy: 105, 105
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+MENU 1
+  rotate: false
+  xy: 389, 209
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+MENU 2
+  rotate: false
+  xy: 493, 313
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+MUTE 1
+  rotate: false
+  xy: 105, 1
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+MUTE 2
+  rotate: false
+  xy: 209, 105
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+next 2
+  rotate: false
+  xy: 493, 209
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+next1
+  rotate: false
+  xy: 597, 313
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+OFF 1
+  rotate: false
+  xy: 209, 1
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+OFF 2
+  rotate: false
+  xy: 313, 105
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+pause 1
+  rotate: false
+  xy: 597, 209
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+pause 2
+  rotate: false
+  xy: 701, 313
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+SOUND 1
+  rotate: false
+  xy: 313, 1
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+SOUND 2
+  rotate: false
+  xy: 417, 105
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+x 1
+  rotate: false
+  xy: 701, 209
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+x 2
+  rotate: false
+  xy: 805, 313
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+YES 1
+  rotate: false
+  xy: 417, 1
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+YES 2
+  rotate: false
+  xy: 521, 105
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1

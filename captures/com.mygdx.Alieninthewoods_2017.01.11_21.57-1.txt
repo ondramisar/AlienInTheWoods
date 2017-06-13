@@ -1,0 +1,61 @@
+Applications Graphics Acceleration Info:
+Uptime: 278558451 Realtime: 349863390
+
+** Graphics info for pid 3987 [com.mygdx.Alieninthewoods] **
+
+Stats since: 269471382233870ns
+Total frames rendered: 31156
+Janky frames: 10114 (32.46%)
+90th percentile: 30ms
+95th percentile: 38ms
+99th percentile: 73ms
+Number Missed Vsync: 2046
+Number High input latency: 11
+Number Slow UI thread: 9920
+Number Slow bitmap uploads: 123
+Number Slow issue draw commands: 210
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache                0 / 75497472
+  LayerCache                  0 / 50331648 (numLayers = 0)
+  Layers total          0 (numLayers = 0)
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache                   0 / 33554432
+  TessellationCache           0 /  1048576
+  TextDropShadowCache         0 /  6291456
+  PatchCache                  0 /   131072
+  FontRenderer 0 A8           0 /        0
+  FontRenderer 0 RGBA         0 /        0
+  FontRenderer 0 total        0 /        0
+Other:
+  FboCache                    0 /        2
+Total memory usage:
+  0 bytes, 0.00 MB
+
+Profile data in ms:
+
+	com.mygdx.Alieninthewoods/com.mygdx.Alieninthewoods.AndroidLauncher/android.view.ViewRootImpl@c226f0d (visibility=0)
+Stats since: 269471382233870ns
+Total frames rendered: 31156
+Janky frames: 10114 (32.46%)
+90th percentile: 30ms
+95th percentile: 38ms
+99th percentile: 73ms
+Number Missed Vsync: 2046
+Number High input latency: 11
+Number Slow UI thread: 9920
+Number Slow bitmap uploads: 123
+Number Slow issue draw commands: 210
+
+View hierarchy:
+
+  com.mygdx.Alieninthewoods/com.mygdx.Alieninthewoods.AndroidLauncher/android.view.ViewRootImpl@c226f0d
+  12 views, 13,10 kB of display lists
+
+
+Total ViewRootImpl: 1
+Total Views:        12
+Total DisplayList:  13,10 kB
+
