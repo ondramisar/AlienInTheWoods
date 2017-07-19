@@ -7,6 +7,14 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.mygdx.Alieninthewoods.Screens.EndLevel;
 import com.mygdx.Alieninthewoods.Screens.Loading;
 
+/* This code is updated version that is not on google play store
+Some new features doesnt work, need to completly rewrite a player class
+shop is not working
+coins doesnt work
+
+ */
+
+
 public class RunningGame extends Game {
 	public static final int V_WIDTH = 500;
 	public static final int V_HEIGHT = 308;
@@ -41,8 +49,8 @@ public class RunningGame extends Game {
 
 		Preferences prefs = EndLevel.prefs = Gdx.app.getPreferences("pref");
 
-		//prefs.putString("player", "normal");
-		//prefs.flush();
+		prefs.putString("player", "normal");
+		prefs.flush();
 	}
 
 	@Override

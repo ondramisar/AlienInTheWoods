@@ -99,7 +99,7 @@ public class PlayScreen implements Screen{
        if (prefs.getString("player").equals("normal")){
             atlas1 = new TextureAtlas("data/Player.pack");
         } else if (prefs.getString("player").equals("normal1")){
-            atlas2 = new TextureAtlas("data/Player1.pack");
+            atlas2 = new TextureAtlas("data/Player.pack");
         }
 
        // atlas1 = new TextureAtlas("data/Player.pack");
@@ -255,7 +255,7 @@ public class PlayScreen implements Screen{
                 if (prefs.getString("player").equals("normal")){
                     player.jump();
                 } else if (prefs.getString("player").equals("normal1")){
-                    player1.jump();
+                    player.jump();
                 }
             }
         });
@@ -422,10 +422,24 @@ public class PlayScreen implements Screen{
                 }
             }
         } else if (prefs.getString("player").equals("normal1")){
+            /*
             if(player1.currentState != Player1.State.DEAD) {
                 if (btn.isPressed() == true) {
                     if (player1.b2body.getLinearVelocity().x <= 2) {
                         player1.b2body.applyLinearImpulse(new Vector2(0.2f, 0), player1.b2body.getWorldCenter(), true);
+                    }
+                }
+            }*/
+            if (player.currentState != com.mygdx.Alieninthewoods.Sprites.Player.State.DEAD) {
+                if (Gdx.input.isKeyJustPressed(Input.Keys.UP))
+                    player.jump();
+                if (Gdx.input.isKeyPressed(Input.Keys.RIGHT) && player.b2body.getLinearVelocity().x <= 2)
+                    player.b2body.applyLinearImpulse(new Vector2(0.1f, 0), player.b2body.getWorldCenter(), true);
+                if (Gdx.input.isKeyPressed(Input.Keys.LEFT) && player.b2body.getLinearVelocity().x >= -2)
+                    player.b2body.applyLinearImpulse(new Vector2(-0.1f, 0), player.b2body.getWorldCenter(), true);
+                if (btn.isPressed() == true){
+                    if ( player.b2body.getLinearVelocity().x <= 2 ){
+                        player.b2body.applyLinearImpulse(new Vector2(0.2f, 0), player.b2body.getWorldCenter(), true);
                     }
                 }
             }

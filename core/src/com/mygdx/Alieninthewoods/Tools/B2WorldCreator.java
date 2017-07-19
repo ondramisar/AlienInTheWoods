@@ -9,7 +9,6 @@ import com.badlogic.gdx.physics.box2d.BodyDef;
 import com.badlogic.gdx.physics.box2d.FixtureDef;
 import com.badlogic.gdx.physics.box2d.PolygonShape;
 import com.badlogic.gdx.physics.box2d.World;
-import com.mygdx.Alieninthewoods.Sprites.Coin;
 import com.mygdx.Alieninthewoods.Sprites.EndFlag;
 import com.mygdx.Alieninthewoods.Sprites.Watter;
 
@@ -51,9 +50,9 @@ public class B2WorldCreator {
             new EndFlag(screen,object) ;
         }
 
-        for(MapObject object : map.getLayers().get(5).getObjects().getByType(RectangleMapObject.class)){
+       /* for(MapObject object : map.getLayers().get(5).getObjects().getByType(RectangleMapObject.class)){
             new Coin(screen,object) ;
-        }
+        }*/
     }
 
 
